@@ -1,8 +1,7 @@
-#Translation is all you need
+# Translation is all you need
+How to recreate our experiments 
 
-##How to recreate our experiments 
-
-##Baseline 
+## Baseline 
 
 The baseline is located in stacked_model. After installing the necessary packages, the main script can be ran by the following command:
 
@@ -10,7 +9,7 @@ The baseline is located in stacked_model. After installing the necessary package
 python3 meta_classifier.py --files <trainfile> <testfile> --translated_files <translatedfile> <translated file> --save <model name>
 ```
 
-##Normalisation
+## Normalisation
 The scripts in the normalisation folder are used as follows. First run the following script:
 
 ```
@@ -24,7 +23,7 @@ python3 get_normalisation.py --files <trainfile> <validationfile> --language <la
 ```
 This leaves you with a json file which can be used in our final systems. The translation was done by concatenating the sentences and pasting it in Google Spreadsheets. 
 
-##Python notebooks
+## Python notebooks
 To run our python notebooks you need a certain structure in Google Drive. The structure we used was as follows:
 
 ```
